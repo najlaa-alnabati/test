@@ -1,0 +1,151 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%; /* Set the body width to 100% */
+  background-color: #e0e4df; /* Set the background color */
+  font-family: 'STC','Cairo', 'Times New Roman', Times, serif; /* Apply STC font */
+  font-weight: normal; 
+}
+
+label {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: 10px; /* Adjust as needed */
+  margin-right: 10px; /* Adjust as needed */
+  font-family: 'STC','Cairo', 'Times New Roman', Times, serif; /* Apply STC font */
+  font-weight: bold; /* Optional: to make labels bold */
+}
+
+header{
+  background-color: #C0A92C;
+  color: #494646;
+  text-align: center;
+  padding: 10px 0;
+  width: 100%;
+  height: 1%;
+  margin-top: -800px;
+}
+
+.logo_img {
+  position: relative;
+  top: 16px;
+  right: 1270px; 
+  width: 100px; 
+  height: 90px; 
+  z-index: 3;
+}
+
+.logo_background {
+  position: relative;
+  top: 8px;
+  right: 1260px;  
+  width: 120px; 
+  height: 105px; 
+  z-index: 3;
+}
+
+.headline {
+  width: 500px;
+  height: 55px;
+  background-color: #ffffff;
+  border-radius: 18px; /* Rounded corners */
+  position: relative;
+  top: 15px;
+  right: 15px;
+}
+
+.headline-text {
+  position: relative;
+  top: 4px;
+  right: 10px;
+  font-family: 'STC','Cairo', 'Times New Roman', Times, serif; /* Apply STC font */
+  font-weight: bold; 
+  font-size: 28px;
+}
+
+.headline-img {
+  width: 55px;
+  height: 55px;
+  background-image: url('background.png'); 
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 460px;
+  border-radius: 50%; /* Circular shape */
+}
+
+footer {
+    background-color: #b6b4ad;
+    color: #163e28;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-family: 'STC','Cairo', 'Times New Roman', Times, serif; /* Apply STC font */
+    font-weight: normal; /* For regular weight */
+  }
+  
+  .footer-info p {
+    display: inline;
+    margin-right: 20px;
+    font-family: 'STC','Cairo', 'Times New Roman', Times, serif; /* Apply STC font */
+    font-weight: normal; /* For regular weight */
+  }
+  
+  .contact-imgs {
+    width: 15px;
+    height: 15px;
+    color: #C0A92C;
+    vertical-align: middle; /* Align the image vertically */
+  }
+  
+  #copy-right {
+    margin-left: 270px;
+    display: inline;
+    font-family: 'STC','Cairo', 'Times New Roman', Times, serif; /* Apply STC font */
+    font-weight: normal; 
+  }
+  
+  a {
+    color: #163e28;
+    text-decoration: none; 
+  }
+  
+    /* Visited link style */
+  a:visited {
+    color: #52191b; 
+  }
+  
+    /* Hovered link style */
+  a:hover {
+    color: #2d5a47; 
+    text-decoration: underline;
+  }
+  .textfields{
+    position: relative;
+  }
+
+  #myTextField1, #myTextField2, #myTextField3, #myTextField4, #myTextField5 {
+    width: 7%; 
+    height: 10px; 
+    padding: 10px;
+    position: relative;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    resize: vertical; 
+    margin-top: 20px;
+    text-align: right;
+    font-family: 'STC','Cairo', 'Times New Roman', Times, serif; /* Apply STC font */
+    font-weight: bold; 
+    background-color:#c5ad41;
+    color: #fff;
+  }
